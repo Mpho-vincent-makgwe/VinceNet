@@ -7,6 +7,7 @@ export default function Home() {
     <div>
       <h1>Welcome to VinceNet</h1>
       <p>Your business solution hub.</p>
+      
       {!session ? (
         <div>
           <h2>Please sign in to access exclusive features.</h2>
